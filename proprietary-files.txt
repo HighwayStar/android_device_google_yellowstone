@@ -60,6 +60,11 @@ etc/firmware/tegra12x/nvhost_msenc031.fw
 etc/firmware/tegra12x/nvhost_tsec.fw
 etc/firmware/tegra12x/vic03_ucode.bin
 
+# GPS
+bin/gps_select.sh
+lib/hw/gps.brcm.so
+vendor/bin/glgps_nvidiaTegra2android
+
 # Raydium touch
 bin/rm_ts_server
 lib/librm31080.so

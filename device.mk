@@ -56,6 +56,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libmhax
 
+# GPS
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/gps/gpsconfig.xml:system/etc/gps/gpsconfig.xml
+
 # Input configs
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/raydium_ts.idc:system/usr/idc/raydium_ts.idc

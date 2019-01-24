@@ -19,6 +19,9 @@ on init
     mount tmpfs tmpfs /mnt/tmp mode=0775,gid=1003
 
     start watchdogd
+
+    #set GPS GPIO property, which is used in gps_select
+    setprop ro.gps.gpio 61
 on post-fs-data
     chmod 0644 /persist/wifi_mac.txt root root
     insmod /system/lib/modules/bcmdhd.ko
