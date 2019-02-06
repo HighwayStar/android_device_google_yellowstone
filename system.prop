@@ -51,3 +51,8 @@ klog.file = /storage/sdcard0/klog
 klog.enabled = no
 
 qemu.hw.mainkeys=0
+
+# We are using old omx blobs
+media.stagefright.less-secure=true
+media.stagefright.legacyencoder=true
+
