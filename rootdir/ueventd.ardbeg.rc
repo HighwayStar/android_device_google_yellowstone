@@ -77,3 +77,27 @@
 /sys/devices/virtual/input/input*	enabled	0660	system	system
 /dev/gps	0664	system	system
 /sys/power/sysedp/consumers/icemdm state 0660 radio system
+
+# sensors
+/dev/iio:device*                                                                0660    system  system
+/sys/devices/platform/tegra12-i2c.0/i2c-0/0-0010/iio:device0 cci_cali_enable 0660    system  system
+/sys/devices/platform/tegra12-i2c.0/i2c-0/0-0010/iio:device0 cci_cali_init 0660    system  system
+/sys/devices/platform/tegra12-i2c.0/i2c-0/0-0010/iio:device0 cci_test_enable 0660    system  system
+/sys/devices/platform/tegra12-i2c.0/i2c-0/0-0010/iio:device0 in_illuminance_enable 0660    system  system
+/sys/devices/platform/tegra12-i2c.0/i2c-0/0-0010/iio:device0 in_illuminance_integration_time 0660    system  system
+/sys/devices/platform/tegra12-i2c.0/i2c-0/0-0010/iio:device0 in_illuminance_max_range 0660    system  system
+/sys/devices/platform/tegra12-i2c.0/i2c-0/0-0010/iio:device0 in_illuminance_power_consumed 0660    system  system
+/sys/devices/platform/tegra12-i2c.0/i2c-0/0-0010/iio:device0 in_illuminance_raw 0660    system  system
+/sys/devices/platform/tegra12-i2c.0/i2c-0/0-0010/iio:device0 in_illuminance_regulator_enable 0660    system  system
+/sys/devices/platform/tegra12-i2c.0/i2c-0/0-0010/iio:device0 in_illuminance_resolution 0660    system  system
+
+/sys/devices/platform/tegra12-i2c.1/i2c-1/1-0044/iio:device1 cci_cali_enable 0660    system  system
+/sys/devices/platform/tegra12-i2c.1/i2c-1/1-0044/iio:device1 cci_cali_init 0660    system  system
+/sys/devices/platform/tegra12-i2c.1/i2c-1/1-0044/iio:device1 cci_test_enable 0660    system  system
+/sys/devices/platform/tegra12-i2c.1/i2c-1/1-0044/iio:device1 in_illuminance_enable 0660    system  system
+/sys/devices/platform/tegra12-i2c.1/i2c-1/1-0044/iio:device1 in_illuminance_integration_time 0660    system  system
+/sys/devices/platform/tegra12-i2c.1/i2c-1/1-0044/iio:device1 in_illuminance_max_range 0660    system  system
+/sys/devices/platform/tegra12-i2c.1/i2c-1/1-0044/iio:device1 in_illuminance_power_consumed 0660    system  system
+/sys/devices/platform/tegra12-i2c.1/i2c-1/1-0044/iio:device1 in_illuminance_raw 0660    system  system
+/sys/devices/platform/tegra12-i2c.1/i2c-1/1-0044/iio:device1 in_illuminance_regulator_enable 0660    system  system
+/sys/devices/platform/tegra12-i2c.1/i2c-1/1-0044/iio:device1 in_illuminance_resolution 0660    system  system

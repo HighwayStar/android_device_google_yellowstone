@@ -132,6 +132,14 @@ lib/para_12_01_02_a0.so
 lib/para_12_01_03_a0.so
 lib/hw/ts.default.so
 
+# Sensors
+bin/sensorhubd
+bin/sh_updater
+lib/libsensors.base.so
+lib/libsensors.iio.lights.so
+lib/hw/sensors.tegra.so
+vendor/indelible/sensor_hub_tgt.bin
+
 # USB firmware
 etc/firmware/tegra_xusb_firmware
 
