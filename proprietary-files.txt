@@ -101,6 +101,9 @@ vendor/lib/libnvvpp.so
 lib/libtbb.so
 vendor/lib/libphs.so
 
+# NFC
+vendor/firmware/bcm43341/BCM43341NFCB0_002.001.009.0031.0059_Generic_I2C_NCD_Signed_configdata.ncd
+vendor/firmware/bcm43341/BCM43341NFCB0_002.001.009.0031.0059_Generic_PreI2C_NCD_Signed_configdata.._.ncd
 
 # Raydium touch
 bin/rm_ts_server
