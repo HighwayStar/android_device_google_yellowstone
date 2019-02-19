@@ -135,6 +135,18 @@ lib/para_12_01_02_a0.so
 lib/para_12_01_03_a0.so
 lib/hw/ts.default.so
 
+# RILD
+vendor/bin/icera-loader
+vendor/bin/crash-check-arm
+vendor/bin/downloader
+vendor/bin/icera-crashlogs
+vendor/bin/icera-switcherd
+vendor/lib/libril-icera.so
+vendor/bin/modemnic
+vendor/bin/icera-feedback
+vendor/bin/icera_log_serial_arm
+
+
 # Sensors
 bin/sensorhubd
 bin/sh_updater
