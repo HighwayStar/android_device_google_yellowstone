@@ -25,3 +25,7 @@ lib/para_12_01_01_a0.so:recovery/root/sbin/para_12_01_01_a0.so
 lib/para_12_01_02_a0.so:recovery/root/sbin/para_12_01_02_a0.so
 lib/para_12_01_03_a0.so:recovery/root/sbin/para_12_01_03_a0.so
 lib/hw/ts.default.so:recovery/root/sbin/ts.default.so
+
+# USB firmware
+etc/firmware/tegra_xusb_firmware:recovery/root/etc/firmware/tegra_xusb_firmware
+
