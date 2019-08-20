@@ -78,6 +78,24 @@
 /dev/gps	0664	system	system
 /sys/power/sysedp/consumers/icemdm state 0660 radio system
 
+# cpu cores
+/sys/devices/system/cpu/cpu* cpuquiet/active 0664 system system
+/sys/devices/system/cpu/cpu* cpufreq/scaling_governor 0664 system system
+/sys/devices/system/cpu/cpu* cpufreq/scaling_setspeed 0664 system system
+/sys/devices/system/cpu/cpu* cpufreq/scaling_available_frequencies 0444 system system
+/sys/devices/system/cpu/cpu* cpufreq/cpuinfo_cur_freq 0444 system system
+# gk20a nodes
+/sys/devices/platform/host1x gk20a.0/freq_request 0664 system system
+/sys/devices/platform/host1x gk20a.0/user 0664 system system
+/sys/devices/platform/host1x gk20a.0/devfreq/gk20a.0/cur_freq 0444 system system
+/sys/devices/platform/host1x gk20a.0/load 0444 system system
+/sys/devices/platform/host1x gk20a.0/counters_reset 0444 system system
+/sys/devices/platform/host1x gk20a.0/slcg_enable 0664 system system
+/sys/devices/platform/host1x gk20a.0/elcg_enable 0664 system system
+/sys/devices/platform/host1x gk20a.0/elpg_enable 0664 system system
+/sys/devices/platform/host1x gk20a.0/blcg_enable 0664 system system
+/sys/devices/platform/host1x tegradc.0/enable 0664 system system
+
 # sensors
 /dev/iio:device*                                                                0660    system  system
 /sys/devices/platform/tegra12-i2c.0/i2c-0/0-0010/iio:device0 cci_cali_enable 0660    system  system
