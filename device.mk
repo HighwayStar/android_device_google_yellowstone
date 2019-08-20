@@ -120,8 +120,8 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    fstab.ardbeg \
-    init.ardbeg.rc \
+    fstab.yellowstone \
+    init.yellowstone.rc \
     init.comms.rc \
     init.hdcp.rc \
     init.icera.common.rc \
@@ -132,7 +132,7 @@ PRODUCT_PACKAGES += \
     init.t124_emmc.rc \
     init.t124.rc \
     init.tlk.rc \
-    ueventd.ardbeg.rc
+    ueventd.yellowstone.rc
 
 TARGET_RECOVERY_DEVICE_MODULES := rm-wrapper
 

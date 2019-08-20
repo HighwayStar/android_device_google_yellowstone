@@ -13,7 +13,7 @@ on fs
     setprop ro.crypto.tmpfs_options size=128m,mode=0771,uid=1000,gid=1000
     setprop ro.crypto.umount_sd false
     setprop ro.crypto.fuse_sdcard true
-    mount_all /fstab.ardbeg
+    mount_all /fstab.yellowstone
 
 on boot
     #max resolution supported for Miracast is 1080p, represented interms of macroblocks

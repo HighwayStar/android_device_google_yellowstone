@@ -48,7 +48,7 @@ USE_OPENGL_RENDERER := true
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/google/yellowstone
 TARGET_KERNEL_CONFIG := yellowstone_defconfig
-BOARD_KERNEL_CMDLINE := androidboot.hardware=ardbeg androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
 # androidboot.ccihwid=6
 BOARD_KERNEL_IMAGE_NAME := zImage
 
@@ -68,7 +68,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 119358357504
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Recovery
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.ardbeg
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.yellowstone
 LZMA_RAMDISK_TARGETS := recovery
 
 # seccomp
